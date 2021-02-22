@@ -30,7 +30,7 @@ li a{
     width:275px;
     position: absolute;
     left: 475px;
-    top: 145;
+    top: 145px;
     background-image: url('img/milan.jpg');
 }
 
@@ -108,10 +108,10 @@ b{
 }
 
 #h22{
-text-align:center;
 color: antiquewhite;
 position: absolute;
 top: 502px;
+text-align: center;
 }
 
 #copyright {
