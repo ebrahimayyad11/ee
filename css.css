@@ -30,7 +30,7 @@ li a{
     width:275px;
     position: absolute;
     left: 475px;
-    top: 158px;
+    top: 145;
     background-image: url('img/milan.jpg');
 }
 
@@ -51,7 +51,7 @@ li a{
     width: 275px;
     position: absolute;
     left: 475px;
-    top: 233px;
+    top: 220px;
 }
 
 #ronaldo_div{
@@ -60,7 +60,7 @@ li a{
     width: 275px;
     position: absolute;
     left: 100px;
-    top: 158px;
+    top: 145px;
     background-image: url('img/juventus.jpg');
 }
 
@@ -80,7 +80,7 @@ b{
     width: 275px;
     position: absolute;
     left: 100px;
-    top: 233px;
+    top: 220px;
 }
 
 #messi_div{
@@ -88,7 +88,7 @@ b{
     height: 75px;
     width: 275px;
     position: absolute;
-    top: 158px;
+    top: 145px;
     left: 850px;
     background-image: url('img/barca.jpg');
 }
@@ -104,14 +104,14 @@ b{
     width: 275px;
     position: absolute;
     left: 850px;
-    top: 233px;
+    top: 220px;
 }
 
 #h22{
 text-align:center;
 color: antiquewhite;
 position: relative;
-top: 550px;
+top: 502px;
 }
 
 #copyright {
