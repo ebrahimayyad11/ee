@@ -27,9 +27,9 @@ li a{
 
 #zlatan_div {
     height: 100px;
-    width:350px;
+    width:275px;
     position: absolute;
-    left: 660px;
+    left: 475px;
     top: 158px;
     background-image: url('img/milan.jpg');
 }
@@ -47,17 +47,17 @@ li a{
 }
 
 #zlatan_img{
-    height: 300px;
-    width: 350px;
+    height: 275px;
+    width: 275px;
     position: absolute;
-    left: 660px;
-    bottom: 275px;
+    left: 475px;
+    top: 258;
 }
 
 #ronaldo_div{
     color:antiquewhite;
     height: 100px;
-    width: 350px;
+    width: 275px;
     position: absolute;
     left: 100px;
     top: 158px;
@@ -67,23 +67,25 @@ li a{
 #ronaldo_h2{
     text-align: center;
     position: relative;
-    top: 15px;left: 5px;
+    top: 15px;
+    left: 5px;
 }
 
 #ronaldo_img{
     height: 275px;
     width: 275px;
     position: absolute;
-    left: 100px;bottom: 275px;
+    left: 100px;
+    top: 258px;
 }
 
 #messi_div{
     color:antiquewhite;
     height: 100px;
-    width: 350px;
+    width: 275px;
     position: absolute;
     top: 158px;
-    right: 100px;
+    left: 850px;
     background-image: url('img/barca.jpg');
 }
 
@@ -97,8 +99,8 @@ li a{
     height: 275px;
     width: 275px;
     position: absolute;
-    right: 100px;
-    bottom: 275px;
+    left: 850px;
+    top: 258px;
 }
 
 #h22{
