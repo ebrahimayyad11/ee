@@ -1,0 +1,140 @@
+body{
+    background-image: url('https://image.freepik.com/free-photo/lights-night-stadium-sport-background-3d-render_41667-230.jpg');
+    background-repeat: no-repeat;
+    background-size: 3000px 1000px;
+}
+#contact {
+    position: absolute;
+    top:15px;
+    right: 50px;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top:35px;
+}
+
+div{
+    color: antiquewhite;
+}
+
+li a{
+    font-size: 20px ;
+    color: white;
+    text-decoration: none;
+}
+
+#zlatan_div {
+    height: 75px;
+    width:275px;
+    position: absolute;
+    left: 475px;
+    top: 145px;
+    background-image: url('img/milan.jpg');
+}
+
+#zlatan_h2{
+    text-align: center;
+    position: relative;
+    bottom: 12px;
+}
+
+#zlatan_h4{
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+
+#zlatan_img{
+    height: 275px;
+    width: 275px;
+    position: absolute;
+    left: 475px;
+    top: 220px;
+}
+
+#ronaldo_div{
+    color:antiquewhite;
+    height: 75px;
+    width: 275px;
+    position: absolute;
+    left: 100px;
+    top: 145px;
+    background-image: url('img/juventus.jpg');
+}
+
+#ronaldo_h2{
+    text-align: center;
+    position: relative;
+    top: 15px;
+    left: 3px;
+}
+
+b{
+    color: black;
+}
+
+#ronaldo_img{
+    height: 275px;
+    width: 275px;
+    position: absolute;
+    left: 100px;
+    top: 220px;
+}
+
+#messi_div{
+    color:antiquewhite;
+    height: 75px;
+    width: 275px;
+    position: absolute;
+    top: 145px;
+    left: 850px;
+    background-image: url('img/barca.jpg');
+}
+
+#messi_h2{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+#messi_img{
+    height: 275px;
+    width: 275px;
+    position: absolute;
+    left: 850px;
+    top: 220px;
+}
+
+#h22{
+    color: antiquewhite;
+    position: absolute;
+    top: 502px;
+    left: 10px;
+}
+
+#hhh{
+    color: antiquewhite;
+    position:absolute;
+    top: 525px;
+    left: 750px;
+
+}
+
+#copyright {
+    position: absolute;
+    left:50px;
+    bottom: 0.5px;
+}
+
+#References_div{
+    position: absolute;
+    right:50px;
+    bottom: 7px;
+}
+
+#References_h2 {
+    color:antiquewhite;
+    text-decoration:none;
+}
