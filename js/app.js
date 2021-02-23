@@ -12,8 +12,22 @@ confirm("ُEnter 3 players that you think they are the best  in the world");
 var first = prompt("The first player");
 var second = prompt("The second player");
 var third = prompt("The third player");
+confirm("Choose one of these colors to put as a background-color : \n 1- blue. \n 2- red. \n 3- yellow.")
 
-var backgroundColor = prompt("Enter a color name that you think it will be more beautiful in back ground");
+var background = prompt("Enter the number of the color that you choosed \n (1 or 2 or 3)");
+var bgColor = "red";
+
+if (parseInt(background) === 1){
+    bgColor = "blue";
+    document.getElementById('bb').style.background = bgColor;
+}else if(parseInt(background) === 2){
+    bgColor = "red";
+    document.getElementById('bb').style.background = bgColor;
+}else if(parseInt(background) === 3){
+    bgColor = "yellow";
+    document.getElementById('bb').style.background = bgColor;
+}
+
 
 
 if (first.toLowerCase() == firstPlayer || first.toLowerCase() == firstPlayer1){
