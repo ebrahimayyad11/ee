@@ -2,6 +2,36 @@ var matching = 0.0;
 var matchingApear = " ";
 
 
+function zlatan(){ 
+    return document.write('<a href = "https://en.wikipedia.org/wiki/Zlatan_Ibrahimovi%C4%87">'+
+'<div id = "zlatan_div">' +
+    '<h2 id = "zlatan_h2">' + '1- Zlatan Ibrahimovic' + '</h2>' +
+    '<h4 id = "zlatan_h4">'+'"The King Of The Game"'+ '</h4>' +
+   '</div>' + '<img id = "zlatan_img" src="img/ebra.jpg" alt="zlatan photo">'+ 
+'</a>'
+);
+}
+
+function ronaldo(){
+    return document.write('<a href = "https://en.wikipedia.org/wiki/Cristiano_Ronaldo">'+
+'<div id = "ronaldo_div">' +
+    '<h2 id = "ronaldo_h2">' + '2- Cr'+'<b class = "b">'+'istiano '+'</b>'+'Ronald'+'<bclass = "b">'+'o'+'</b>' + '</h2>' +
+    '<h4 id = "ronaldo_img">'+"The King Of The Game"+ '</h4>' +
+   '</div>' + '<img id = "ronaldo_img" src="img/ronaldo.jpg" alt="ronaldo photo">'+ 
+'</a>'
+);
+}
+
+function messi() {
+    return document.write('<a href = "https://en.wikipedia.org/wiki/Lionel_Messi">'+
+'<div id = "messi_div">' +
+    '<h2 id = "messi_h2">' + 'Lional Messi' + '</h2>' +
+    '<h4 id = "ronaldo_img">'+"The King Of The Game"+ '</h4>' +
+   '</div>' + '<img id = "messi_img" src="img/messi.jpg" alt="messi photo">'+ 
+'</a>'
+);
+}
+
 
 function matchingPercentage (player) {
     var matching1 = 0.0;
@@ -43,6 +73,14 @@ function percentage(matchingpercentage){
 
     return match;
 }
+
+
+var ballon = parseInt(prompt("How many ballon d'or does ronaldo and messi have togather?  \n a) 5  \n b) 11 \n c) 9"));
+while(ballon != 11){
+    ballon = parseInt(prompt("Wrong answer please try another choice \n How many ballon d'or does ronaldo and messi have togather?  \n a) 5  \n b) 11 \n c) 9"));
+}
+
+
 
 confirm("Enter 3 players that you think they are the best  in the world");
 
@@ -95,36 +133,6 @@ document.getElementById('second').innerHTML = second;
 document.getElementById('third').innerHTML = third;
 
 
-function zlatan(){ 
-    return document.write('<a href = "https://en.wikipedia.org/wiki/Zlatan_Ibrahimovi%C4%87">'+
-'<div id = "zlatan_div">' +
-    '<h2 id = "zlatan_h2">' + '1- Zlatan Ibrahimovic' + '</h2>' +
-    '<h4 id = "zlatan_h4">'+'"The King Of The Game"'+ '</h4>' +
-   '</div>' + '<img id = "zlatan_img" src="img/ebra.jpg" alt="zlatan photo">'+ 
-'</a>'
-);
-}
-
-function ronaldo(){
-    return document.write('<a href = "https://en.wikipedia.org/wiki/Cristiano_Ronaldo">'+
-'<div id = "ronaldo_div">' +
-    '<h2 id = "ronaldo_h2">' + '2- Cr'+'<b class = "b">'+'istiano '+'</b>'+'Ronald'+'<bclass = "b">'+'o'+'</b>' + '</h2>' +
-    '<h4 id = "ronaldo_img">'+"The King Of The Game"+ '</h4>' +
-   '</div>' + '<img id = "ronaldo_img" src="img/ronaldo.jpg" alt="ronaldo photo">'+ 
-'</a>'
-);
-}
-
-function messi() {
-    return document.write('<a href = "https://en.wikipedia.org/wiki/Lionel_Messi">'+
-'<div id = "messi_div">' +
-    '<h2 id = "messi_h2">' + 'Lional Messi' + '</h2>' +
-    '<h4 id = "ronaldo_img">'+"The King Of The Game"+ '</h4>' +
-   '</div>' + '<img id = "messi_img" src="img/messi.jpg" alt="messi photo">'+ 
-'</a>'
-);
-}
-
 confirm("Whats the number of players that you want to see in \n The Ranking of the best players in the world \n Chose a number from 1 to 3 please");
 
 var numOfPlayers = parseInt(prompt("Enter the number of players that you want to see please \n (1 or 2 or 3)"));
@@ -147,4 +155,9 @@ while (z == 1){
         numOfPlayers = parseInt(prompt("please enter a number between 1 and 3"));
     }
 }
+
+
+
+
+
 
