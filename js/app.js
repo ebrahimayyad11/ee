@@ -44,7 +44,7 @@ function percentage(matchingpercentage){
     return match;
 }
 
-confirm("ُEnter 3 players that you think they are the best  in the world");
+confirm("Enter 3 players that you think they are the best  in the world");
 
 var first = prompt("The first player");
 var second = prompt("The second player");
